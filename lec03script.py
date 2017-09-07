@@ -1,8 +1,5 @@
-def lec03script():
-    num1 = input('Enter Number 1')
-    num1 = float(num1)
-    num2 = input('Enter Number 2')
-    num2 = float(num2)
+def lec03script(num1,num2):
+    
     oursum = num1 + num2
 
     if oursum >= 0:
@@ -13,4 +10,4 @@ def lec03script():
         print('You inputted a string')
 
 
-lec03script()
+
